@@ -1,0 +1,925 @@
+{
+ "id": "silver-archive",
+ "number": "01",
+ "title": {
+  "ar": "الأرشيف الفضي",
+  "en": "The Silver Archive"
+ },
+ "tagline": {
+  "ar": "مخطوط واحد. أربعة وجوه. حقيقة واحدة مدفونة بين الصفحات.",
+  "en": "One manuscript. Four faces. One truth buried between the pages."
+ },
+ "difficulty": {
+  "ar": "متقدّمة",
+  "en": "Advanced"
+ },
+ "duration": {
+  "ar": "60–90 دقيقة",
+  "en": "60–90 min"
+ },
+ "cover_key": "hero",
+ "briefing": {
+  "ar": "ليلة الأربعاء، الساعة 23:40، عثرت مدبّرة المنزل على د. نادر الصيرفي، مؤسس «الأرشيف الفضي» لحفظ المخطوطات النادرة، جثةً هامدة فوق مكتبه داخل غرفة الخزنة. لا آثار عنف، لا باب مكسور، ولا شيء مسروق في الظاهر.\n\nالشرطة تميل إلى «نوبة قلبية». لكن تقرير التشريح يقول شيئاً آخر.\n\nمهمتكم: اكتشفوا مَن القاتل، ولماذا قتل، وكيف قتل. كل ما تحتاجونه موجود على هذه اللوحة… إن عرفتم كيف تقرؤونه.",
+  "en": "Wednesday night, 23:40. The housekeeper found Dr. Nader Al-Sairafi, founder of the Silver Archive of rare manuscripts, dead at his desk inside the vault. No signs of violence, no forced door, nothing visibly stolen.\n\nThe police lean towards a heart attack. The autopsy says otherwise.\n\nYour task: find out who killed him, why, and how. Everything you need is on this board… if you know how to read it."
+ },
+ "board": {
+  "width": 2400,
+  "height": 1480
+ },
+ "evidence": [
+  {
+   "id": "victim",
+   "kind": "victim",
+   "image_key": "victim",
+   "x": 1080,
+   "y": 50,
+   "rot": -1,
+   "title": {
+    "ar": "د. نادر الصيرفي",
+    "en": "Dr. Nader Al-Sairafi"
+   },
+   "subtitle": {
+    "ar": "الضحية · 64 عاماً",
+    "en": "Victim · 64"
+   },
+   "body": {
+    "ar": "## الملف\n- مؤسس «الأرشيف الفضي» ومالكه منذ 1998.\n- خبير في المخطوطات العربية في العصور الوسطى.\n- يعاني من اضطراب خفيف في القلب ويتناول حبة دواء واحدة يومياً مع العشاء.\n- أرمل، بلا أبناء. أقرب أقاربه: ابن أخيه كريم.\n## العثور على الجثة\n- الوقت: 23:40 ليلة الأربعاء.\n- المكان: غرفة القراءة داخل الخزنة.\n- عثرت عليه: سلمى الحدّاد (مدبّرة المنزل).\n> «كان رجلاً لا يثق بأحد في عمله… إلا قليلين.» — سلمى",
+    "en": "## File\n- Founder and owner of the Silver Archive since 1998.\n- Expert in medieval Arabic manuscripts.\n- Mild heart condition; takes one pill daily with dinner.\n- Widower, no children. Closest relative: his nephew Karim.\n## Discovery\n- Time: 23:40, Wednesday night.\n- Place: the reading room inside the vault.\n- Found by: Salma Al-Haddad (housekeeper).\n> \"He trusted no one in his work… except a few.\" — Salma"
+   }
+  },
+  {
+   "id": "layan",
+   "kind": "suspect",
+   "image_key": "layan",
+   "x": 360,
+   "y": 110,
+   "rot": 2,
+   "title": {
+    "ar": "د. ليان مراد",
+    "en": "Dr. Layan Murad"
+   },
+   "subtitle": {
+    "ar": "كبيرة المرمّمين · 41 عاماً",
+    "en": "Chief Restorer · 41"
+   },
+   "body": {
+    "ar": "## الملف\n- تعمل في الأرشيف منذ 9 سنوات، وتدير معمل الترميم في الجناح الشرقي.\n- معروفة في الوسط بتقنية خاصة بها: «الغرزة الفضية».\n- ترتدي دائماً قفازات قطنية بيضاء، ومشبك شعر فضياً على شكل إبرة خياطة — هدية من د. نادر.\n- بحسب الوصية، تصبح «أمينة المجموعة» بعد وفاته.\n## الحالة\n- لم تُستجوب بعد بشكل رسمي. انظر إفادتها.",
+    "en": "## File\n- 9 years at the archive; runs the restoration lab in the east wing.\n- Known in the field for her signature technique: the \"silver stitch\".\n- Always wears white cotton gloves and a silver hairpin shaped like a sewing needle — a gift from Dr. Nader.\n- Under the will, she becomes \"Keeper of the Collection\" after his death.\n## Status\n- Not formally interrogated yet. See her statement."
+   }
+  },
+  {
+   "id": "karim",
+   "kind": "suspect",
+   "image_key": "karim",
+   "x": 700,
+   "y": 70,
+   "rot": -2,
+   "title": {
+    "ar": "كريم الصيرفي",
+    "en": "Karim Al-Sairafi"
+   },
+   "subtitle": {
+    "ar": "ابن أخ الضحية · 33 عاماً",
+    "en": "Victim's nephew · 33"
+   },
+   "body": {
+    "ar": "## الملف\n- الوريث الرئيسي لتركة عمّه الشخصية.\n- عليه ديون قمار تتجاوز 400 ألف.\n- لا يملك بطاقة دخول إلى الخزنة.\n- شوهد يتشاجر مع عمّه بصوت مرتفع ليلة الحادثة.",
+    "en": "## File\n- Main heir to his uncle's personal estate.\n- Gambling debts exceeding 400,000.\n- Holds no vault access card.\n- Seen arguing loudly with his uncle on the night of the crime."
+   }
+  },
+  {
+   "id": "salma",
+   "kind": "suspect",
+   "image_key": "salma",
+   "x": 1460,
+   "y": 70,
+   "rot": 1.5,
+   "title": {
+    "ar": "سلمى الحدّاد",
+    "en": "Salma Al-Haddad"
+   },
+   "subtitle": {
+    "ar": "مدبّرة المنزل · 60 عاماً",
+    "en": "Housekeeper · 60"
+   },
+   "body": {
+    "ar": "## الملف\n- في خدمة د. نادر منذ 20 عاماً.\n- تقدّم له الشاي كل ليلة في موعد ثابت.\n- ورد اسمها في الوصية بمبلغ صغير.\n- لا تملك بطاقة دخول إلى الخزنة.\n- هي من عثرت على الجثة.",
+    "en": "## File\n- In Dr. Nader's service for 20 years.\n- Serves him tea every night at a fixed time.\n- Named in the will for a small sum.\n- Holds no vault access card.\n- She found the body."
+   }
+  },
+  {
+   "id": "youssef",
+   "kind": "suspect",
+   "image_key": "youssef",
+   "x": 1790,
+   "y": 110,
+   "rot": -1.5,
+   "title": {
+    "ar": "يوسف الكاتب",
+    "en": "Youssef Al-Kateb"
+   },
+   "subtitle": {
+    "ar": "مساعد الفهرسة السابق · 29 عاماً",
+    "en": "Former cataloguer · 29"
+   },
+   "body": {
+    "ar": "## الملف\n- عمل مساعداً للفهرسة 4 سنوات.\n- فُصل من العمل يوم 3 من الشهر بعد مشادة مع د. نادر.\n- أُلغيت بطاقة دخوله في اليوم نفسه.\n- يُقال إنه غادر «حاقداً».",
+    "en": "## File\n- Worked as a cataloguer for 4 years.\n- Dismissed on the 3rd of the month after an argument with Dr. Nader.\n- His access card was revoked the same day.\n- Said to have left \"bitter\"."
+   }
+  },
+  {
+   "id": "autopsy",
+   "kind": "report",
+   "x": 860,
+   "y": 470,
+   "rot": -2,
+   "title": {
+    "ar": "تقرير التشريح",
+    "en": "Autopsy Report"
+   },
+   "subtitle": {
+    "ar": "الطب الشرعي · سري",
+    "en": "Forensic Medicine · Confidential"
+   },
+   "body": {
+    "ar": "## النتائج\n- وقت الوفاة التقديري: بين 22:45 و23:00.\n- السبب: توقف القلب نتيجة تسمم بمادة «الأكونيتين» (Aconitine) المستخلصة من نبات البيش «خانق الذئب».\n- لا آثار عنف ولا وخز إبر.\n## خصائص المادة\n- تبدأ الأعراض (تنميل الشفتين واللسان، اضطراب النبض) بعد 20 إلى 40 دقيقة من دخولها الجسم.\n- تحدث الوفاة عادة خلال 15 إلى 30 دقيقة من بدء الأعراض.\n## ملاحظة الطبيب\n> أعلى تركيز للمادة وُجد على اللسان والشفة السفلى وطرفي السبابة والإبهام في اليد اليمنى. تركيزها في المعدة ضئيل جداً مقارنةً بالفم. محتوى المعدة: شاي بالهيل وقطعة كعك تمر.",
+    "en": "## Findings\n- Estimated time of death: between 22:45 and 23:00.\n- Cause: cardiac arrest from Aconitine poisoning, extracted from the monkshood plant (\"wolf's bane\").\n- No signs of violence, no needle marks.\n## Substance profile\n- Symptoms (numb lips and tongue, irregular pulse) begin 20 to 40 minutes after it enters the body.\n- Death usually follows within 15 to 30 minutes of the first symptoms.\n## Examiner's note\n> Highest concentration found on the tongue, lower lip and the tips of the right index finger and thumb. Concentration in the stomach is very low compared to the mouth. Stomach contents: cardamom tea and a piece of date cake."
+   }
+  },
+  {
+   "id": "tea",
+   "kind": "statement",
+   "x": 1190,
+   "y": 470,
+   "rot": 1.5,
+   "title": {
+    "ar": "إفادة طقس الشاي",
+    "en": "The Tea Ritual Statement"
+   },
+   "subtitle": {
+    "ar": "إفادة سلمى الحدّاد",
+    "en": "Statement of Salma Al-Haddad"
+   },
+   "body": {
+    "ar": "> «كل ليلة في 21:30 بالضبط أقدّم للدكتور الشاي بالهيل مع كعك التمر في قاعة المكتبة، لا في الخزنة؛ فهو نفسه من منع إدخال أي طعام أو شراب إليها.\n> تلك الليلة شرب نصف الكوب، وشربت أنا كوباً من الإبريق نفسه كعادتي، وأكلنا من الطبق نفسه.\n> عند 22:05 تقريباً قال إنه سيدخل الخزنة ‹ليتأكد من شيء لا ينتظر حتى الصباح›. كان متوتراً على غير عادته.\n> عند 23:40 ذهبت أذكّره بالنوم فوجدته…\n> شيء آخر: حوالي 18:45 سمعت باب معمل الترميم في الجناح الشرقي يُفتح. ظننته يوسف عاد ليأخذ أغراضه.»\n## ملاحظة الشرطة\n- فحص المختبر الجنائي الكوب والإبريق وبقايا الكعك: لا أثر لأي سم.\n- آخر حبة من دواء القلب تناولها مع العشاء الساعة 20:00.",
+    "en": "> \"Every night at exactly 21:30 I serve the doctor cardamom tea with date cake in the library hall, not the vault — he himself banned all food and drink inside it.\n> That night he drank half the cup. I drank a cup from the same pot as always, and we ate from the same plate.\n> Around 22:05 he said he was going into the vault 'to check something that can't wait until morning'. He was unusually tense.\n> At 23:40 I went to remind him to sleep, and I found him…\n> One more thing: around 18:45 I heard the restoration lab door in the east wing open. I thought it was Youssef back for his things.\"\n## Police note\n- The forensic lab tested the cup, the pot and the cake leftovers: no trace of poison.\n- He took his last heart pill with dinner at 20:00."
+   }
+  },
+  {
+   "id": "scene",
+   "kind": "photo",
+   "image_key": "scene",
+   "x": 1520,
+   "y": 450,
+   "rot": -1,
+   "title": {
+    "ar": "تقرير مسرح الجريمة",
+    "en": "Crime Scene Report"
+   },
+   "subtitle": {
+    "ar": "غرفة القراءة · الخزنة",
+    "en": "Reading Room · Vault"
+   },
+   "body": {
+    "ar": "## على المكتب\n- المخطوط رقم 17 «كتاب الأسرار الفضية» مفتوح على الصفحتين 46–47.\n- عدسة مكبّرة نحاسية.\n- مصباح أشعة فوق بنفسجية صغير — كان لا يزال مضاءً.\n- زوج قفازات قطنية بيضاء مطويّة، تبدو غير مستعملة.\n- قلم رصاص وورقة فارغة.\n## ملاحظات\n- لا يوجد أي كوب أو طعام داخل الخزنة. لافتة على الجدار: «ممنوع الطعام والشراب».\n- علبة حبوب القلب في جيبه: العدد مطابق للجرعات اليومية. الحبوب سليمة.\n- الباب الزجاجي مغلق وغير مقفل.",
+    "en": "## On the desk\n- Manuscript No. 17, \"The Book of Silver Secrets\", open at pages 46–47.\n- A brass magnifying glass.\n- A small UV lamp — still switched on.\n- A pair of folded white cotton gloves, apparently unused.\n- A pencil and a blank sheet.\n## Notes\n- No cup or food inside the vault. Sign on the wall: \"No food or drink\".\n- Heart pill box in his pocket: count matches daily doses. Pills are clean.\n- The glass door was closed but not locked."
+   }
+  },
+  {
+   "id": "access",
+   "kind": "log",
+   "x": 500,
+   "y": 450,
+   "rot": 1,
+   "title": {
+    "ar": "سجل بطاقات الدخول",
+    "en": "Access Card Log"
+   },
+   "subtitle": {
+    "ar": "النظام الإلكتروني · ليلة الأربعاء",
+    "en": "Electronic system · Wednesday"
+   },
+   "body": {
+    "ar": "## السجل\n- 17:28 — يوسف الكاتب — زائر: تسليم أغراض، خروج من البوابة الرئيسية\n- 18:02 — بطاقة د. ليان مراد — خروج من البوابة الرئيسية\n- 18:39 — بطاقة د. ليان مراد — دخول من باب الخدمة الشرقي\n- 18:41 — بطاقة د. ليان مراد — معمل الترميم\n- 18:47 — بطاقة د. ليان مراد — الخزنة: فتح الصندوق 17\n- 19:06 — بطاقة د. ليان مراد — خروج من باب الخدمة الشرقي\n- 20:10 — كريم الصيرفي — زائر (تسجيل يدوي عند البوابة)\n- 20:52 — كريم الصيرفي — خروج\n- 22:09 — د. نادر الصيرفي — دخول الخزنة\n- 22:12 — د. نادر الصيرفي — فتح الصندوق 17\n## ملاحظات النظام\n- صناديق المخطوطات لا تُفتح إلا ببطاقة مصرّح لها: د. نادر، د. ليان. (بطاقة يوسف مُلغاة منذ يوم 3).\n- الصندوق 17 لم يُفتح خلال الأيام الخمسة السابقة إلا في هذين الموعدين.",
+    "en": "## Log\n- 17:28 — Youssef Al-Kateb — visitor: returned belongings, exit via main gate\n- 18:02 — Dr. Layan Murad's card — exit via main gate\n- 18:39 — Dr. Layan Murad's card — entry via east service door\n- 18:41 — Dr. Layan Murad's card — restoration lab\n- 18:47 — Dr. Layan Murad's card — vault: box 17 opened\n- 19:06 — Dr. Layan Murad's card — exit via east service door\n- 20:10 — Karim Al-Sairafi — visitor (manual entry at gate)\n- 20:52 — Karim Al-Sairafi — exit\n- 22:09 — Dr. Nader Al-Sairafi — vault entry\n- 22:12 — Dr. Nader Al-Sairafi — box 17 opened\n## System notes\n- Manuscript boxes open only with an authorised card: Dr. Nader, Dr. Layan. (Youssef's card revoked since the 3rd.)\n- Box 17 was opened only at these two times in the previous five days."
+   }
+  },
+  {
+   "id": "layan_statement",
+   "kind": "statement",
+   "x": 140,
+   "y": 520,
+   "rot": -2,
+   "title": {
+    "ar": "إفادة د. ليان مراد",
+    "en": "Statement of Dr. Layan Murad"
+   },
+   "subtitle": {
+    "ar": "أُخذت صباح الخميس",
+    "en": "Taken Thursday morning"
+   },
+   "body": {
+    "ar": "> «غادرت العمل في السادسة مساءً كعادتي، وذهبت إلى بيتي مباشرة ولم أخرج حتى سمعت الخبر صباحاً.\n> د. نادر كان بمثابة أبٍ لي.\n> نعم، أنا من رمّم المخطوط 17 الشهر الماضي. كان عملاً دقيقاً جداً، ربما أدق ما أنجزت.\n> إن أردتم الحقيقة… ابحثوا عند كريم. كان يتشاجر معه دائماً بسبب المال.»",
+    "en": "> \"I left work at six in the evening as usual, went straight home, and didn't go out until I heard the news in the morning.\n> Dr. Nader was like a father to me.\n> Yes, I restored manuscript 17 last month. It was very delicate work — perhaps my finest.\n> If you want the truth… look at Karim. He was always fighting with him over money.\""
+   }
+  },
+  {
+   "id": "youssef_statement",
+   "kind": "statement",
+   "x": 1880,
+   "y": 470,
+   "rot": 2,
+   "title": {
+    "ar": "إفادة يوسف الكاتب",
+    "en": "Statement of Youssef Al-Kateb"
+   },
+   "subtitle": {
+    "ar": "أُخذت صباح الخميس",
+    "en": "Taken Thursday morning"
+   },
+   "body": {
+    "ar": "> «طردني لأنني قلت له إن بعض المخطوطات بعد ترميمها ‹تبدو أنظف مما ينبغي›. ظنّ أنني أتهم د. ليان بلا دليل، فغضب.\n> هل كرهته؟ لا. كان عنيداً لكنه كان أستاذي.\n> كانت له عادة قديمة نحذّره منها دائماً: يبلّ طرف إصبعه بلسانه ليقلب الصفحات. كنا نضع له القفازات أمامه كل مرة… ولم يكن يلبسها أبداً.\n> تلك الليلة كنت مع أمي في المستشفى حتى منتصف الليل.»",
+    "en": "> \"He fired me because I told him some manuscripts looked 'cleaner than they should' after restoration. He thought I was accusing Dr. Layan without proof, and he got angry.\n> Did I hate him? No. He was stubborn, but he was my teacher.\n> He had an old habit we always warned him about: he'd wet his fingertip with his tongue to turn the pages. We put gloves in front of him every time… he never wore them.\n> That night I was with my mother at the hospital until midnight.\""
+   }
+  },
+  {
+   "id": "hospital",
+   "kind": "log",
+   "x": 2120,
+   "y": 820,
+   "rot": -1.5,
+   "title": {
+    "ar": "سجل زوار المستشفى",
+    "en": "Hospital Visitor Log"
+   },
+   "subtitle": {
+    "ar": "مستشفى الرحمة · جناح القلب",
+    "en": "Al-Rahma Hospital · Cardiac Ward"
+   },
+   "body": {
+    "ar": "## الغرفة 214\n- الزائر: يوسف الكاتب\n- دخول: 18:34\n- خروج: 00:12\n- ملاحظة الممرضة المناوبة: «بقي بجوار والدته طوال الوقت، وطلب القهوة مرتين.»",
+    "en": "## Room 214\n- Visitor: Youssef Al-Kateb\n- In: 18:34\n- Out: 00:12\n- Duty nurse's note: \"Stayed by his mother's side the whole time and asked for coffee twice.\""
+   }
+  },
+  {
+   "id": "karim_statement",
+   "kind": "statement",
+   "x": 640,
+   "y": 810,
+   "rot": 1.5,
+   "title": {
+    "ar": "إفادة كريم الصيرفي",
+    "en": "Statement of Karim Al-Sairafi"
+   },
+   "subtitle": {
+    "ar": "أُخذت صباح الخميس",
+    "en": "Taken Thursday morning"
+   },
+   "body": {
+    "ar": "> «نعم، زرت عمي الثامنة مساءً لأطلب قرضاً. رفض وتشاجرنا، وقلت كلاماً أندم عليه.\n> خرجت قبل التاسعة وذهبت إلى مقهى ‹ليل المدينة› وبقيت هناك حتى قرابة منتصف الليل.\n> لم أقترب من الخزنة يوماً. عمي لم يكن يسمح لي حتى بلمس الرفوف.»",
+    "en": "> \"Yes, I visited my uncle at eight to ask for a loan. He refused, we argued, and I said things I regret.\n> I left before nine and went to the 'City Night' café, and stayed there until almost midnight.\n> I never went near the vault. My uncle wouldn't even let me touch the shelves.\""
+   }
+  },
+  {
+   "id": "receipt",
+   "kind": "note",
+   "x": 380,
+   "y": 1010,
+   "rot": -3,
+   "title": {
+    "ar": "إيصال مقهى «ليل المدينة»",
+    "en": "\"City Night\" Café Receipt"
+   },
+   "subtitle": {
+    "ar": "وُجد في محفظة كريم",
+    "en": "Found in Karim's wallet"
+   },
+   "body": {
+    "ar": "## الطاولة 7\n- أول طلب: 21:08\n- آخر طلب: 22:02\n- الدفع: 23:31 — بطاقة باسم كريم الصيرفي\n- إفادة النادل: «لم يغادر طاولته، كان يلعب الورق مع ثلاثة رجال.»",
+    "en": "## Table 7\n- First order: 21:08\n- Last order: 22:02\n- Paid: 23:31 — card in the name of Karim Al-Sairafi\n- Waiter: \"He never left his table, he was playing cards with three men.\""
+   }
+  },
+  {
+   "id": "will",
+   "kind": "letter",
+   "x": 980,
+   "y": 840,
+   "rot": -1,
+   "title": {
+    "ar": "ملخص الوصية",
+    "en": "Summary of the Will"
+   },
+   "subtitle": {
+    "ar": "مكتب المحامي فؤاد سليم",
+    "en": "Office of Fouad Salim, Attorney"
+   },
+   "body": {
+    "ar": "## البنود\n- 70% من التركة الشخصية: كريم الصيرفي.\n- 50,000 وبيت القرية: سلمى الحدّاد.\n- المجموعة والمخطوطات: تُنقل إلى «مؤسسة الأرشيف الفضي».\n- بند إدارة المجموعة: تتولى د. ليان مراد منصب «أمينة المجموعة» مدى الحياة، ولها وحدها حق الإشراف على الترميم والإعارة.\n## ملاحظة المحامي\n> «اتصل بي د. نادر يوم الثلاثاء وطلب موعداً عاجلاً صباح الخميس لتعديل بند واحد فقط: بند إدارة المجموعة.»",
+    "en": "## Clauses\n- 70% of the personal estate: Karim Al-Sairafi.\n- 50,000 and the village house: Salma Al-Haddad.\n- The collection and manuscripts: transferred to the \"Silver Archive Foundation\".\n- Collection management clause: Dr. Layan Murad becomes \"Keeper of the Collection\" for life, with sole authority over restoration and loans.\n## Attorney's note\n> \"Dr. Nader called me on Tuesday and asked for an urgent appointment Thursday morning to amend one clause only: the collection management clause.\""
+   }
+  },
+  {
+   "id": "register",
+   "kind": "log",
+   "x": 1300,
+   "y": 860,
+   "rot": 2,
+   "title": {
+    "ar": "سجل الترميم",
+    "en": "Restoration Register"
+   },
+   "subtitle": {
+    "ar": "معمل الترميم · الجناح الشرقي",
+    "en": "Restoration Lab · East Wing"
+   },
+   "body": {
+    "ar": "## آخر الأعمال\n- المخطوط 09 — المرمّم: د. ليان مراد — يناير\n- المخطوط 12 — المرمّم: د. ليان مراد — مارس\n- المخطوط 17 «كتاب الأسرار الفضية» — المرمّم: د. ليان مراد — الشهر الماضي\n## تفاصيل المخطوط 17\n- تدعيم الكعب بتقنية «الغرزة الفضية»: خيط حرير مفضّض بنمط متعرّج ثلاثي.\n- المواد: معجون نشا القمح، مستخلص نباتي طارد للعثّ.\n## ملاحظة\n- «الغرزة الفضية» تقنية ابتكرتها د. ليان، ولا يستخدمها غيرها في الأرشيف. تُعدّ توقيعها المهني.",
+    "en": "## Recent work\n- Manuscript 09 — restorer: Dr. Layan Murad — January\n- Manuscript 12 — restorer: Dr. Layan Murad — March\n- Manuscript 17 \"The Book of Silver Secrets\" — restorer: Dr. Layan Murad — last month\n## Manuscript 17 details\n- Spine reinforced with the \"silver stitch\": silver-plated silk thread in a triple zigzag pattern.\n- Materials: wheat-starch paste, botanical anti-moth extract.\n## Note\n- The \"silver stitch\" was invented by Dr. Layan; no one else in the archive uses it. It is her professional signature."
+   }
+  },
+  {
+   "id": "auction",
+   "kind": "photo",
+   "image_key": "spine",
+   "x": 1640,
+   "y": 840,
+   "rot": -2,
+   "title": {
+    "ar": "كتالوج مزاد جنيف",
+    "en": "Geneva Auction Catalogue"
+   },
+   "subtitle": {
+    "ar": "هالوران وأبناؤه · المزاد الربيعي",
+    "en": "Halloran & Sons · Spring Sale"
+   },
+   "body": {
+    "ar": "## القطعة 112\n- العنوان: «كتاب الأسرار الفضية».\n- نسخة مؤرخة 583هـ / 1187م.\n- المصدر: «مجموعة خاصة — البائع طلب عدم الكشف عن هويته».\n- سعر البيع: 1,240,000 فرنك سويسري.\n- تاريخ المزاد: قبل ثلاثة أسابيع.\n## وصف الحالة (من الكتالوج)\n> «حالة ممتازة. رُمّم الكعب حديثاً بخيط حريري مفضّض بغرزة متعرّجة ثلاثية، في عمل احترافي نادر.»",
+    "en": "## Lot 112\n- Title: \"The Book of Silver Secrets\".\n- Copy dated 583 AH / 1187 CE.\n- Provenance: \"Private collection — the seller requested anonymity\".\n- Hammer price: CHF 1,240,000.\n- Sale date: three weeks ago.\n## Condition (from the catalogue)\n> \"Excellent condition. Spine recently restored with silver-plated silk thread in a triple zigzag stitch — rare professional work.\""
+   }
+  },
+  {
+   "id": "catalog_card",
+   "kind": "note",
+   "x": 1900,
+   "y": 1110,
+   "rot": 2.5,
+   "title": {
+    "ar": "بطاقة فهرسة المخطوط 17",
+    "en": "Catalogue Card: Manuscript 17"
+   },
+   "subtitle": {
+    "ar": "أرشيف الفهرسة",
+    "en": "Cataloguing archive"
+   },
+   "body": {
+    "ar": "## البيانات\n- العنوان: كتاب الأسرار الفضية.\n- نُسخ سنة 583 هـ، الموافق 1187 م.\n- عدد الأوراق: 212.\n- اقتُني عام 1998.\n- الحالة الفريدة: «النسخة الوحيدة المعروفة في العالم».\n- خطّ يد الفهرسة: يوسف الكاتب.",
+    "en": "## Data\n- Title: The Book of Silver Secrets.\n- Copied in 583 AH, corresponding to 1187 CE.\n- Folios: 212.\n- Acquired: 1998.\n- Status: \"The only known copy in the world\".\n- Catalogued by: Youssef Al-Kateb."
+   }
+  },
+  {
+   "id": "sticky",
+   "kind": "note",
+   "x": 1560,
+   "y": 1190,
+   "rot": -4,
+   "title": {
+    "ar": "ورقة لاصقة على الدرج",
+    "en": "Sticky Note on the Drawer"
+   },
+   "subtitle": {
+    "ar": "بخط يد الضحية",
+    "en": "In the victim's handwriting"
+   },
+   "body": {
+    "ar": "> «الدفتر الأسود: أقفلته بالعام الذي وُلد فيه السرّ…\n> بالتقويم الذي يقرؤه العالم كله.»\n## ملاحظة المحقق\n- في درج المكتب دفتر أسود بقفل رقمي من أربع خانات.",
+    "en": "> \"The black notebook: I locked it with the year the secret was born…\n> in the calendar the whole world reads.\"\n## Investigator's note\n- In the desk drawer: a black notebook with a four-digit combination lock."
+   }
+  }
+ ],
+ "hidden_evidence": [
+  {
+   "id": "lab_pages",
+   "kind": "report",
+   "unlock_by": "q1",
+   "x": 90,
+   "y": 1150,
+   "rot": 1,
+   "title": {
+    "ar": "تقرير مختبر المخطوط",
+    "en": "Manuscript Lab Report"
+   },
+   "subtitle": {
+    "ar": "دليل جديد · المختبر الجنائي",
+    "en": "New evidence · Forensic lab"
+   },
+   "body": {
+    "ar": "## فحص المخطوط 17\n- وُجدت طبقة شفافة رقيقة تحتوي «الأكونيتين» على الزوايا السفلية للصفحات من 38 إلى 52 فقط — حيث توضع الأصابع لقلب الصفحة.\n- المادة ممزوجة بمعجون نشا القمح المستخدم في الترميم، فلا تُرى بالعين.\n- باقي صفحات المخطوط وباقي صناديق الخزنة: سليمة.\n- القفازات القطنية على المكتب: نظيفة تماماً، لم تُلبس.",
+    "en": "## Manuscript 17 analysis\n- A thin transparent layer containing Aconitine was found on the lower corners of pages 38 to 52 only — exactly where fingers turn a page.\n- The substance was mixed into the wheat-starch paste used in restoration, invisible to the eye.\n- All other pages and all other vault boxes: clean.\n- The cotton gloves on the desk: perfectly clean, never worn."
+   }
+  },
+  {
+   "id": "invoice",
+   "kind": "letter",
+   "unlock_by": "q2",
+   "x": 370,
+   "y": 1240,
+   "rot": -2,
+   "title": {
+    "ar": "فاتورة مورّد",
+    "en": "Supplier Invoice"
+   },
+   "subtitle": {
+    "ar": "دليل جديد · مخزن المعمل",
+    "en": "New evidence · Lab storeroom"
+   },
+   "body": {
+    "ar": "## Alpine Botanicals Extracts — زيورخ\n- إلى: د. ليان مراد — معمل الترميم، الأرشيف الفضي.\n- الصنف: مستخلص جذر Aconitum napellus مركّز — 30 مل.\n- التسمية على الطلب: «مستخلص نباتي طارد للعثّ».\n- تحذير مطبوع: «للاستخدام البحثي فقط — شديد السمية».\n- التاريخ: قبل 12 يوماً.\n## ملاحظة أمين المخزن\n> «الزجاجة غير موجودة في خزانة المواد، ولم تُسجَّل في دفتر الاستهلاك.»",
+    "en": "## Alpine Botanicals Extracts — Zurich\n- To: Dr. Layan Murad — Restoration Lab, Silver Archive.\n- Item: concentrated Aconitum napellus root extract — 30 ml.\n- Label on the order: \"botanical anti-moth extract\".\n- Printed warning: \"For research use only — highly toxic\".\n- Date: 12 days ago.\n## Storekeeper's note\n> \"The bottle is not in the materials cabinet and was never logged in the usage book.\""
+   }
+  },
+  {
+   "id": "cctv",
+   "kind": "photo",
+   "image_key": "cctv",
+   "unlock_by": "q3",
+   "x": 690,
+   "y": 1170,
+   "rot": 1.5,
+   "title": {
+    "ar": "لقطة كاميرا المراقبة",
+    "en": "CCTV Still"
+   },
+   "subtitle": {
+    "ar": "دليل جديد · الممر الشرقي",
+    "en": "New evidence · East corridor"
+   },
+   "body": {
+    "ar": "## الكاميرا 3 — الممر الشرقي\n- الوقت الفعلي من خادم التسجيل: 18:44 (ساعة الكاميرا نفسها غير مضبوطة منذ سنوات).\n- شخص بمعطف داكن وقبعة، يرتدي قفازات قطنية بيضاء، ويحمل حقيبة أدوات ترميم جلدية.\n- الوجه غير واضح.\n- عند تكبير الصورة: يلمع تحت حافة القبعة مشبك شعر فضي على شكل إبرة خياطة.",
+    "en": "## Camera 3 — East corridor\n- Real time from the recording server: 18:44 (the camera's own clock has been wrong for years).\n- A figure in a dark coat and hat, wearing white cotton gloves, carrying a leather restoration tool case.\n- Face not visible.\n- Zoomed in: a silver hairpin shaped like a sewing needle glints under the brim of the hat."
+   }
+  },
+  {
+   "id": "notebook",
+   "kind": "letter",
+   "unlock_by": "q4",
+   "x": 990,
+   "y": 1220,
+   "rot": -1.5,
+   "title": {
+    "ar": "الدفتر الأسود",
+    "en": "The Black Notebook"
+   },
+   "subtitle": {
+    "ar": "دليل جديد · مذكرات الضحية",
+    "en": "New evidence · Victim's diary"
+   },
+   "body": {
+    "ar": "- 12 مايو: يوسف قال إن المخطوطات «أنظف مما ينبغي». طردته. ربما ظلمته.\n- 28 مايو: رأيت كتالوج مزاد جنيف. القطعة 112 هي كتابي. هذا مستحيل… كتابي في الصندوق 17.\n- الثلاثاء: اتصلت بفؤاد. يجب تعديل بند الإدارة قبل أي شيء.\n- الأربعاء: الليلة سأفحص الحبر تحت الأشعة فوق البنفسجية. إن كان الحبر حديثاً، فالذي بين يدي ليس كتابي… ومن رمّمه هو من بدّله.\n- الخميس 9:00: الهيئة العامة للآثار.",
+    "en": "- 12 May: Youssef said the manuscripts look \"cleaner than they should\". I fired him. Perhaps I wronged him.\n- 28 May: I saw the Geneva auction catalogue. Lot 112 is my book. Impossible… my book is in box 17.\n- Tuesday: I called Fouad. The management clause must be changed before anything else.\n- Wednesday: Tonight I'll check the ink under UV light. If the ink is modern, what I hold is not my book… and whoever restored it is whoever swapped it.\n- Thursday 9:00: General Authority for Antiquities."
+   }
+  },
+  {
+   "id": "draft",
+   "kind": "letter",
+   "unlock_by": "q5",
+   "x": 1290,
+   "y": 1210,
+   "rot": 2,
+   "title": {
+    "ar": "مسودة بلاغ لم تُرسل",
+    "en": "Unsent Draft Report"
+   },
+   "subtitle": {
+    "ar": "دليل جديد · بريد الضحية · حُفظت 21:58",
+    "en": "New evidence · Victim's email · saved 21:58"
+   },
+   "body": {
+    "ar": "## إلى: الهيئة العامة للآثار\n> «أبلغكم بالاشتباه في استبدال ما لا يقل عن ثلاث مخطوطات من مجموعتي (09، 12، 17) بنسخ مزوّرة بإتقان مذهل، وبيع الأصول عبر مزادات أوروبية.\n> الشخص الوحيد الذي تعامل مع المخطوطات الثلاث خلال العام…»\n- (تنتهي المسودة هنا)",
+    "en": "## To: General Authority for Antiquities\n> \"I report the suspected replacement of at least three manuscripts from my collection (09, 12, 17) with astonishingly precise forgeries, and the sale of the originals through European auctions.\n> The only person who handled all three manuscripts this year…\"\n- (The draft ends here)"
+   }
+  },
+  {
+   "id": "transfer",
+   "kind": "log",
+   "unlock_by": "q6",
+   "x": 2150,
+   "y": 1230,
+   "rot": -2,
+   "title": {
+    "ar": "إشعار تحويل مصرفي",
+    "en": "Bank Transfer Notice"
+   },
+   "subtitle": {
+    "ar": "دليل جديد · وحدة الجرائم المالية",
+    "en": "New evidence · Financial crimes unit"
+   },
+   "body": {
+    "ar": "## التفاصيل\n- من: Halloran & Sons Auctioneers — جنيف.\n- إلى: شركة «مراد للاستشارات الفنية».\n- المالك المسجّل للشركة: سامي مراد — شقيق د. ليان مراد.\n- المبلغ: 1,054,000 فرنك سويسري (بعد العمولة).\n- المرجع: Lot 112.",
+    "en": "## Details\n- From: Halloran & Sons Auctioneers — Geneva.\n- To: \"Murad Art Consulting\".\n- Registered owner: Sami Murad — Dr. Layan Murad's brother.\n- Amount: CHF 1,054,000 (after commission).\n- Reference: Lot 112."
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "q1",
+   "type": "choice",
+   "unlocks": "lab_pages",
+   "title": {
+    "ar": "ساعة السم",
+    "en": "The Poison Hour"
+   },
+   "prompt": {
+    "ar": "متى دخل السم جسد د. نادر؟",
+    "en": "When did the poison enter Dr. Nader's body?"
+   },
+   "clue": {
+    "ar": "قارن وقت الوفاة بسرعة مفعول السم… ثم انظر أين كان في تلك الدقائق.",
+    "en": "Compare the time of death with how fast the poison acts… then see where he was in those minutes."
+   },
+   "options": [
+    {
+     "id": "a",
+     "label": {
+      "ar": "20:00 — مع حبة القلب على العشاء",
+      "en": "20:00 — with his heart pill at dinner"
+     }
+    },
+    {
+     "id": "b",
+     "label": {
+      "ar": "21:30 — مع كوب الشاي في قاعة المكتبة",
+      "en": "21:30 — with the tea in the library hall"
+     }
+    },
+    {
+     "id": "c",
+     "label": {
+      "ar": "بين 22:12 و22:25 — داخل الخزنة أثناء تصفّح المخطوط",
+      "en": "Between 22:12 and 22:25 — in the vault, leafing through the manuscript"
+     }
+    },
+    {
+     "id": "d",
+     "label": {
+      "ar": "22:40 — عند خروجه من الخزنة",
+      "en": "22:40 — as he left the vault"
+     }
+    },
+    {
+     "id": "e",
+     "label": {
+      "ar": "بعد 23:00",
+      "en": "After 23:00"
+     }
+    }
+   ],
+   "answer": "c",
+   "explain": {
+    "ar": "الوفاة بين 22:45 و23:00. نطرح 15–30 دقيقة للأعراض، ثم 20–40 دقيقة لبدء المفعول: السم دخل بين 21:35 و22:25 تقريباً. الشاي (21:30) خارج النافذة وفحصه سليم، والسجل يُظهر فتحه الصندوق 17 الساعة 22:12. إذن بين 22:12 و22:25.",
+    "en": "Death 22:45–23:00. Subtract 15–30 min of symptoms, then 20–40 min of onset: intake roughly 21:35–22:25. The tea (21:30) is outside that window and tested clean; the log shows box 17 opened at 22:12. So between 22:12 and 22:25."
+   }
+  },
+  {
+   "id": "q2",
+   "type": "choice",
+   "unlocks": "invoice",
+   "title": {
+    "ar": "طريق السم",
+    "en": "The Poison's Path"
+   },
+   "prompt": {
+    "ar": "كيف وصل السم إلى فم الضحية؟",
+    "en": "How did the poison reach the victim's mouth?"
+   },
+   "clue": {
+    "ar": "أين تركّز السم في جسده؟ ومن يعرف عاداته الصغيرة؟",
+    "en": "Where on his body was the poison concentrated? And who knew his small habits?"
+   },
+   "options": [
+    {
+     "id": "a",
+     "label": {
+      "ar": "في الشاي بالهيل",
+      "en": "In the cardamom tea"
+     }
+    },
+    {
+     "id": "b",
+     "label": {
+      "ar": "في حبوب القلب",
+      "en": "In the heart pills"
+     }
+    },
+    {
+     "id": "c",
+     "label": {
+      "ar": "على زوايا صفحات المخطوط، فانتقل بإصبعه المبلول إلى لسانه",
+      "en": "On the page corners of the manuscript, carried to his tongue by his wetted finger"
+     }
+    },
+    {
+     "id": "d",
+     "label": {
+      "ar": "في هواء الخزنة المغلقة",
+      "en": "In the air of the sealed vault"
+     }
+    },
+    {
+     "id": "e",
+     "label": {
+      "ar": "على مقبض عدسة التكبير",
+      "en": "On the handle of the magnifying glass"
+     }
+    }
+   ],
+   "answer": "c",
+   "explain": {
+    "ar": "أعلى تركيز على اللسان وطرفي السبابة والإبهام، والمعدة شبه خالية. يوسف أكد عادته في بلّ إصبعه لقلب الصفحات، والقفازات لم تُلبس.",
+    "en": "Highest concentration on the tongue and index/thumb tips, almost none in the stomach. Youssef confirmed his habit of wetting his finger to turn pages, and the gloves were never worn."
+   }
+  },
+  {
+   "id": "q3",
+   "type": "choice",
+   "unlocks": "cctv",
+   "title": {
+    "ar": "الكذبة",
+    "en": "The Lie"
+   },
+   "prompt": {
+    "ar": "من كذب في إفادته عن مكانه تلك الليلة؟",
+    "en": "Who lied in their statement about where they were that night?"
+   },
+   "clue": {
+    "ar": "ضع كل إفادة أمام السجلات الآلية. الآلات لا تجامل أحداً.",
+    "en": "Hold every statement against the machine logs. Machines flatter no one."
+   },
+   "options": [
+    {
+     "id": "salma",
+     "label": {
+      "ar": "سلمى الحدّاد",
+      "en": "Salma Al-Haddad"
+     }
+    },
+    {
+     "id": "karim",
+     "label": {
+      "ar": "كريم الصيرفي",
+      "en": "Karim Al-Sairafi"
+     }
+    },
+    {
+     "id": "layan",
+     "label": {
+      "ar": "د. ليان مراد",
+      "en": "Dr. Layan Murad"
+     }
+    },
+    {
+     "id": "youssef",
+     "label": {
+      "ar": "يوسف الكاتب",
+      "en": "Youssef Al-Kateb"
+     }
+    },
+    {
+     "id": "none",
+     "label": {
+      "ar": "لم يكذب أحد",
+      "en": "No one lied"
+     }
+    }
+   ],
+   "answer": "layan",
+   "explain": {
+    "ar": "قالت إنها ذهبت لبيتها في السادسة ولم تخرج، لكن بطاقتها دخلت من باب الخدمة 18:39 وفتحت الصندوق 17 الساعة 18:47، وسلمى سمعت باب المعمل 18:45.",
+    "en": "She said she went home at six and never left, yet her card entered the service door at 18:39 and opened box 17 at 18:47 — and Salma heard the lab door at 18:45."
+   }
+  },
+  {
+   "id": "q4",
+   "type": "number",
+   "unlocks": "notebook",
+   "title": {
+    "ar": "قفل الدفتر الأسود",
+    "en": "The Black Notebook Lock"
+   },
+   "prompt": {
+    "ar": "ما الرمز المكوّن من أربعة أرقام الذي يفتح الدفتر الأسود؟",
+    "en": "What four-digit code opens the black notebook?"
+   },
+   "clue": {
+    "ar": "«السرّ» له اسم في هذه القضية… ولولادته تاريخان. أيهما يقرؤه العالم كله؟",
+    "en": "The \"secret\" has a name in this case… and its birth has two dates. Which one does the whole world read?"
+   },
+   "options": [],
+   "answer": "1187",
+   "explain": {
+    "ar": "«السرّ» هو «كتاب الأسرار الفضية»، نُسخ سنة 583هـ = 1187م. التقويم الذي يقرؤه العالم كله هو الميلادي: 1187.",
+    "en": "The \"secret\" is The Book of Silver Secrets, copied 583 AH = 1187 CE. The calendar the whole world reads is the Gregorian: 1187."
+   }
+  },
+  {
+   "id": "q5",
+   "type": "choice",
+   "unlocks": "draft",
+   "title": {
+    "ar": "ما الذي اكتشفه؟",
+    "en": "What Did He Discover?"
+   },
+   "prompt": {
+    "ar": "ما الحقيقة التي كان د. نادر يتحقق منها في ليلته الأخيرة؟",
+    "en": "What truth was Dr. Nader verifying on his last night?"
+   },
+   "clue": {
+    "ar": "كتاب «فريد في العالم» ظهر في مكانين في الوقت نفسه. ولماذا يحمل رجل مصباح أشعة فوق بنفسجية إلى مخطوط؟",
+    "en": "A book \"unique in the world\" appeared in two places at once. And why would a man take a UV lamp to a manuscript?"
+   },
+   "options": [
+    {
+     "id": "a",
+     "label": {
+      "ar": "أن كريم سرق صفحات من المخطوط ليبيعها",
+      "en": "That Karim stole pages from the manuscript to sell them"
+     }
+    },
+    {
+     "id": "b",
+     "label": {
+      "ar": "أن المخطوط يخفي خريطة أو رسالة سرية",
+      "en": "That the manuscript hides a secret map or message"
+     }
+    },
+    {
+     "id": "c",
+     "label": {
+      "ar": "أن المخطوط 17 في الأرشيف مزوّر، وأن الأصل بيع في مزاد جنيف",
+      "en": "That manuscript 17 in the archive is a forgery and the original was sold in Geneva"
+     }
+    },
+    {
+     "id": "d",
+     "label": {
+      "ar": "أن الرطوبة أتلفت المخطوط بعد ترميمه",
+      "en": "That humidity damaged the manuscript after restoration"
+     }
+    },
+    {
+     "id": "e",
+     "label": {
+      "ar": "أن يوسف أخطأ في تاريخ الفهرسة",
+      "en": "That Youssef got the cataloguing date wrong"
+     }
+    }
+   ],
+   "answer": "c",
+   "explain": {
+    "ar": "بطاقة الفهرسة تقول «النسخة الوحيدة في العالم»، والكتالوج يبيعها في جنيف. والمصباح البنفسجي يكشف الحبر الحديث. أحد الكتابين مزوّر — والذي في الخزنة هو المزيّف.",
+    "en": "The catalogue card says \"the only copy in the world\", yet Geneva sold it. The UV lamp reveals modern ink. One of them is fake — the one in the vault."
+   }
+  },
+  {
+   "id": "q6",
+   "type": "choice",
+   "unlocks": "transfer",
+   "title": {
+    "ar": "خيط الفضة",
+    "en": "The Silver Thread"
+   },
+   "prompt": {
+    "ar": "ما التفصيل الذي يربط الأصل المبيع في جنيف بمن استبدله؟",
+    "en": "Which detail ties the original sold in Geneva to whoever swapped it?"
+   },
+   "clue": {
+    "ar": "اقرأ وصف الحالة في الكتالوج كلمةً كلمة، ثم ابحث عمّن يوقّع أعماله بهذه الطريقة.",
+    "en": "Read the catalogue's condition notes word by word, then find who signs their work that way."
+   },
+   "options": [
+    {
+     "id": "a",
+     "label": {
+      "ar": "ختم الأرشيف على الورقة الأولى",
+      "en": "The archive stamp on the first folio"
+     }
+    },
+    {
+     "id": "b",
+     "label": {
+      "ar": "الغرزة الفضية المتعرّجة الثلاثية في الكعب",
+      "en": "The triple zigzag silver stitch on the spine"
+     }
+    },
+    {
+     "id": "c",
+     "label": {
+      "ar": "نوع الحبر المستخدم في النسخ",
+      "en": "The type of ink used in copying"
+     }
+    },
+    {
+     "id": "d",
+     "label": {
+      "ar": "توقيع الناسخ في آخر صفحة",
+      "en": "The scribe's signature on the last page"
+     }
+    },
+    {
+     "id": "e",
+     "label": {
+      "ar": "عدد الأوراق",
+      "en": "The number of folios"
+     }
+    }
+   ],
+   "answer": "b",
+   "explain": {
+    "ar": "الكتالوج يصف كعباً مرمّماً «بخيط حريري مفضّض بغرزة متعرّجة ثلاثية» — وهذه «الغرزة الفضية»، توقيع د. ليان الذي لا يستخدمه غيرها. الأصل مرّ بين يديها قبل أن يُباع.",
+    "en": "The catalogue describes a spine restored \"with silver-plated silk thread in a triple zigzag stitch\" — the silver stitch, Dr. Layan's signature that no one else uses. The original passed through her hands before it was sold."
+   }
+  }
+ ],
+ "accusation_threshold": 4,
+ "accusation": {
+  "suspects": [
+   "layan",
+   "karim",
+   "salma",
+   "youssef"
+  ],
+  "motives": [
+   {
+    "id": "inheritance",
+    "label": {
+     "ar": "الاستعجال في الحصول على الميراث وسداد الديون",
+     "en": "To claim the inheritance early and pay off debts"
+    }
+   },
+   {
+    "id": "revenge",
+    "label": {
+     "ar": "الانتقام من الطرد والإهانة",
+     "en": "Revenge for the dismissal and humiliation"
+    }
+   },
+   {
+    "id": "forgery",
+    "label": {
+     "ar": "إسكاته قبل أن يكشف استبدال المخطوطات وبيع الأصول، والإبقاء على إدارة المجموعة",
+     "en": "To silence him before he exposed the manuscript swaps and sales, and to keep control of the collection"
+    }
+   },
+   {
+    "id": "bequest",
+    "label": {
+     "ar": "الحصول على مبلغ الوصية والبيت",
+     "en": "To obtain the bequest and the house"
+    }
+   }
+  ],
+  "methods": [
+   {
+    "id": "tea",
+    "label": {
+     "ar": "سمّ في الشاي بالهيل",
+     "en": "Poison in the cardamom tea"
+    }
+   },
+   {
+    "id": "pills",
+    "label": {
+     "ar": "استبدال حبوب القلب",
+     "en": "Swapping the heart pills"
+    }
+   },
+   {
+    "id": "pages",
+    "label": {
+     "ar": "طلاء زوايا صفحات المخطوط بالأكونيتين ممزوجاً بمعجون الترميم",
+     "en": "Coating the manuscript's page corners with aconitine mixed into restoration paste"
+    }
+   },
+   {
+    "id": "injection",
+    "label": {
+     "ar": "حقنة أثناء نومه",
+     "en": "An injection while he slept"
+    }
+   }
+  ],
+  "answer": {
+   "suspect": "layan",
+   "motive": "forgery",
+   "method": "pages"
+  }
+ },
+ "solution": {
+  "ar": "القاتلة هي د. ليان مراد.\n\nعلى مدى عام كامل، كانت تستبدل أنفس مخطوطات الأرشيف (09، 12، 17) بنسخ مزوّرة بإتقان، وتبيع الأصول في أوروبا عبر شركة شقيقها. لكن غرورها المهني خانها: رمّمت الأصل قبل بيعه بتوقيعها الخاص، «الغرزة الفضية» — فظهر في كتالوج جنيف.\n\nحين رأى د. نادر الكتالوج، بدأ يشك. طلب تعديل بند «أمينة المجموعة» في وصيته، وحدد موعداً مع هيئة الآثار صباح الخميس.\n\nكانت ليان تعرف عادته الوحيدة القاتلة: يبلّ إصبعه بلسانه ليقلب الصفحات ولا يلبس القفازات أبداً. وكانت تعرف أنه سيفحص المخطوط 17 تحديداً. عادت سراً من باب الخدمة الساعة 18:39، ومزجت مستخلص البيش بمعجون نشا القمح، وطلت به زوايا الصفحات 38–52.\n\nفي 22:12 فتح د. نادر الصندوق ليكشف التزوير بمصباحه البنفسجي… وكان كل قلب صفحة يقرّبه من الموت. وُجدت الحقيقة في المكان الذي أرادت إخفاءها فيه: بين الصفحات.",
+  "en": "The killer is Dr. Layan Murad.\n\nFor a whole year she had been replacing the archive's finest manuscripts (09, 12, 17) with masterful forgeries and selling the originals in Europe through her brother's company. But her professional pride betrayed her: she restored the original before selling it, using her personal signature — the silver stitch — and it appeared in the Geneva catalogue.\n\nWhen Dr. Nader saw the catalogue, he grew suspicious. He asked to amend the \"Keeper of the Collection\" clause in his will and booked a meeting with the Antiquities Authority for Thursday morning.\n\nLayan knew his one deadly habit: he wet his finger with his tongue to turn pages and never wore gloves. She knew he would examine manuscript 17. She slipped back in through the service door at 18:39, mixed monkshood extract into wheat-starch paste, and coated the corners of pages 38–52.\n\nAt 22:12 Dr. Nader opened the box to expose the forgery with his UV lamp… and every page he turned brought him closer to death. The truth was found exactly where she tried to bury it: between the pages."
+ },
+ "briefing_image": "victim",
+ "start_tip": {
+  "ar": "اقرأ أولاً بطاقة الضحية وتقرير التشريح وإفادة طقس الشاي، ثم جاوب سؤال «ساعة السم».",
+  "en": "Read the Victim card, the Autopsy Report and the Tea Ritual Statement first, then answer \"The Poison Hour\"."
+ }
+}
